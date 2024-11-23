@@ -1,5 +1,5 @@
-name: flutter_application_1
-description: A new Flutter project.
+name: code_quest
+description: A pixelated RPG where players solve coding challenges in battles, progressing by answering correctly and losing lives with mistakes..
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -30,14 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    cupertino_icons: ^1.0.2
-    flame: ^1.7.0
-    audioplayers: ^0.20.1
-    sqflite: ^2.0.0+4
+  cupertino_icons: ^1.0.2
+  flame: ^1.7.0
+  audioplayers: ^0.20.1
+  sqflite: ^2.0.0+4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  # cupertino_icons: ^1.0.2  # You already have this, no need to add it again.
 
 dev_dependencies:
   flutter_test:
